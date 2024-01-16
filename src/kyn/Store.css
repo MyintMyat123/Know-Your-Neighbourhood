@@ -1,0 +1,28 @@
+.row {
+	display: flex;
+	flex-wrap: nowrap; /* Ensure items stay in a single row */
+	overflow-x: auto; /* Allow horizontal scrolling if needed */
+  }
+  
+  .card-group {
+	display: flex;
+	flex-wrap: nowrap; /* Ensure cards stay in a single row */
+	overflow-x: auto; /* Allow horizontal scrolling if needed */
+  }
+  
+  .card {
+	flex: 0 0 auto; /* Prevent cards from growing to fill space */
+	margin-right: 50px;
+	border: 1px solid #ddd; /* Add a border with a color of your choice */
+	border-radius: 8px;
+	padding-left: 10px;
+	padding-right: 10px; /* Adjust as needed */
+  }
+
+  .container-fluid {
+	padding: 30px; /* Adjust as needed */
+  }
+
+  .card-title{
+	text-align: center;
+  }
